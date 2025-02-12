@@ -47,10 +47,26 @@ import Hero from "../components/Hero.astro";
       </section>
       <section>
         <h2 class="section-title">Skills</h2>
-        <div class="content">
+        <div class="content skills">
           <p>
-            TypeScript/Javascript, React[-Native], NodeJS, NextJS, GitHub
-            Actions, Python, C# .NET
+            <b>Frontend: </b>CSS/HTML, TypeScript/Javascript, React[-Native],
+            React Query, VueJS, NextJS, Vercel, Expo, Tailwind
+          </p>
+          <p>
+            <b>Design: </b>Figma, Framer
+          </p>
+          <p>
+            <b>Backend: </b>NodeJS, ExpressJS, GitHub Actions, Python, C# .NET
+          </p>
+          <p>
+            <b>CI/CD: </b>GitHub Actions, Wepback, Vite
+          </p>
+          <p>
+            <b>Infrastructure: </b>AWS, Azure
+          </p>
+          <p>
+            <b>Datastores: </b>DynamoDB, Couchbase, Redis, Microsoft SQL,
+            PostgreSQL
           </p>
         </div>
       </section>
@@ -99,7 +115,8 @@ import Hero from "../components/Hero.astro";
           grid-column: 2 / 4;
         }
 
-        .background > p:not(:first-child) {
+        .background > p:not(:first-child),
+        .skills > p:not(:first-child) {
           margin-top: 1em;
         }
 
